@@ -1,0 +1,22 @@
+h1{font-size:30px;
+	text-align:center;
+	font-family:gabriola;
+	padding-top:20px;}
+ul li{
+	color:black;
+	list-style-type:none; 
+	display:inline;}
+ol li{color:black;font-size:20px;}
+a{text-decoration:none;padding:20px;color:black}
+#main-content{
+			background: linear-gradient(to right, #ffcccc , #b3b3ff);
+			}
+img { float:right;
+	border-radius:20px;
+	margin-left:20px;
+	width:auto;
+	height:400px;
+	}
+.responsive{width:100%;
+			height: auto;
+			max-width:200px;}

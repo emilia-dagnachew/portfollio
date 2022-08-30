@@ -1,0 +1,17 @@
+h2{font-family:parchment;
+	font-size:70px;
+	text-align:center;}
+p{font-family:century;
+	font-size:20;}
+#main-content{padding:50px; 
+				background-color:beige;
+				margin:100px;
+				border-style:solid;
+				border-color:black;
+				border-radius:20px;
+				}
+a{text-decoration:none;
+	padding:20px;
+	color:black;}
+li{ list-style-type:none;
+	display:inline;}

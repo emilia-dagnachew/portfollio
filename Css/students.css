@@ -1,0 +1,9 @@
+h1{padding-top:20px;font-size:20px;}
+h2{font-family:ariel; font-size:25px;}
+p{font-family:century;
+	font-size:20px;}
+li{list-style-type:none;
+	display:inline;}
+a{text-decoration:none;
+	padding:20px;
+	color:black}

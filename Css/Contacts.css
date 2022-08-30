@@ -1,0 +1,52 @@
+body {font-family:century;
+		margin-top:0px;}
+p{font-family:century;}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#bb33ff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #8800cc;
+}
+.main-content {
+    border-radius: 5px;
+    background-color:#eeccff;
+	width:70%;
+	padding:30px;
+	margin:70px auto;
+	border: 10px solid ;
+    border-image:  url("../resources/Parenting.jpg") 1 round;
+}
+#inner-cont{
+	margin-left:auto;
+}
+#contact-header{
+	text-align:center;
+	margin-top:-70px;}
+#column-left{
+	width:40%;
+	display:inline;
+}
+ul li{color:black;list-style-type:none; display:inline;}
+ol li{color:black;font-size:20px;}
+a{text-decoration:none;padding:20px;color:black}
+#title{
+	margin-top:100px;
+}
+
+	

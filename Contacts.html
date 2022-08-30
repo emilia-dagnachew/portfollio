@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Contacts </title>
+	<link rel="stylesheet" href="css/contacts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="./resources/favicon.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<div id="navigation-bar">
+		<div id="profile">
+			<a id="nav-img" href="./About_Us.html"><img id="profile-img" src="./resources/Mema.png" \></a>
+			<h5> Summer Camp </h5>
+		</div>
+		<div id="nav-list-cont">
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="./index.html"> Home </a>
+				<a href="./Events_Page.html"> Events </a>
+				<a href="./Club_page.html"> Clubs </a>
+				<a href="./Students.html"> Students </a>
+				<a href="./Parenting.html"> Parenting </a>
+				<a href="./Teachers.html"> Teachers </a>
+				<a href="./About_Us.html"> About Me </a>
+				<a id="active" href="./Contacts.html"> Contacts </a>
+			</div>
+			<ul id="nav-list">
+				<li> <a href="./index.html"> Home </a></li>
+				<li> <a href="./Events_Page.html"> Events </a> </li>
+				<li> <a href="./Club_page.html"> Clubs </a></li>
+				<li> <a href="./Students.html"> Students </a></li>
+				<li> <a href="./Parenting.html"> Parenting </a></li>
+				<li> <a href="./Teachers.html"> Teachers </a> </li>
+				<li> <a href="./About_Us.html"> About Me </a> </li>
+				<li> <a id="active" href="./Contacts.html"> Contacts </a> </li>
+			</ul>
+			<p id="menu" onclick="openNav()" style="font-family:century;font-size:18px;"><i calss="fa fa-fw fa-bars"></i></p>
+		</div>
+	</div>
+	<div class="main-content">
+		<div id="contact-header">
+			<h3 id="title">Contact Form</h3>
+			<p> If you would like to contact me, please fill in the following information and press submit ;). </p>
+		</div>
+
+		<div id="inner-cont">
+
+			<form action="">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+					<option value="ethiopia">Ethiopia</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+					<option value="netherlands"> Netherlands</option>
+					<option value="australia"> Australia</option>
+					<option value="other"> Other</option>
+
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+
+		</div>
+	</div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,13 @@
+h1{font-family:algerian; color:black; font-size:26px;}
+h2{font-family:parchment;color:black;font-size:70px;text-align:center;}
+p{font-family:gungsah;font-size:25px;color:black}               
+#main-content{
+			margin:100px;
+			background-color:beige;
+			border-style:solid;
+			border-color:black;
+			border-radius:20px;}
+li{ list-style-type:none; display:inline;}
+a{text-decoration:none;padding:20px;color:black;}
+
+	
